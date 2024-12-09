@@ -2,7 +2,7 @@
 const fs = require('fs');
 const jsc = require('jsverify');
 
-eval(fs.readFileSync('ParallelMerge.js')+'');
+eval(fs.readFileSync('code.js')+'');
 
 var testSort =
     jsc.forall("array nat", function(arr) {
